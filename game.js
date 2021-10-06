@@ -145,7 +145,7 @@ $(".btn").click(function() {
         usersColor = $(this).attr("id");
         usersPickedOrder.push(usersColor);
         animateButton(usersColor);
-        playSound(usersColor);
+        
         checkClick(usersPickedOrder.length - 1);
 }
 });
@@ -169,7 +169,7 @@ function nextLevel () {
     var randomColour = randColor(gameColors);
     gamePickedOrder.push(randomColour);
     animateButton(randomColour);
-    playSound(randomColour);
+   
     
 }
 
