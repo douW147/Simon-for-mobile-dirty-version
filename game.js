@@ -128,7 +128,7 @@ var usersColor = "g"
 var usersPickedOrder = [];
 
     
-$(document).keydown(function() {
+$(document).click(function() {
     
     if (isGame == false) {
         isGame = true;
